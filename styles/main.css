@@ -1,0 +1,23 @@
+body {
+  background-color: #F1F1F1;
+
+}
+
+#wrapper {
+  display: flex;
+  height: calc(100vh - 40px);
+  border: 20px solid #58595B;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-wrapper {
+  width: 100%;
+  max-width: 360px;
+
+}
+
+.logo {
+  width: 100%;
+
+}
