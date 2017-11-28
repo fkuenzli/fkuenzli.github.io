@@ -1,6 +1,6 @@
 body {
   background-color: #F1F1F1;
-
+  font-family: 'Lato', sans-serif;
 }
 
 #wrapper {
@@ -9,15 +9,62 @@ body {
   border: 20px solid #58595B;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 #logo-wrapper {
   width: 100%;
-  max-width: 360px;
-
+  max-width: 360px
 }
 
 .logo {
   width: 100%;
 
+}
+
+.byline {
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #c2c3c3;
+}
+
+.byline a{
+  color: #c2c3c3;
+  text-decoration: none;
+}
+
+.byline a:hover{
+  color: #CD4656;
+}
+
+#mailchimp-signup-wrapper {
+  width: 100%;
+  max-width: 360px;
+  background-color: transparent;
+}
+
+#mailchimp-signup-wrapper #mc_embed_signup {
+  background: transparent;
+
+}
+
+#mailchimp-signup-wrapper #mc_embed_signup #mc_embed_signup_scroll {
+  font-family: 'Lato', sans-serif;
+}
+
+#mailchimp-signup-wrapper #mc_embed_signup #mc_embed_signup_scroll label {
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #c2c3c3;
+}
+
+#mailchimp-signup-wrapper #mc_embed_signup #mc_embed_signup_scroll input[type="email"] {
+  width: 100%;
+  height: 28px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc;
+  font-family: 'Lato', sans-serif;
 }
